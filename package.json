@@ -1,0 +1,19 @@
+{
+  "name": "dd-trace-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "DD_TRACE_DEBUG=true node index.js | pino-pretty -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dd-trace": "^3.10.0",
+    "koa": "^2.14.1",
+    "koa-router": "^12.0.0",
+    "pino-http": "^8.3.1",
+    "pino-pretty": "^9.1.1"
+  }
+}
